@@ -45,7 +45,7 @@ providers:
 
   - name: OnlyKey
     url: https://crp.to/p/
-    img: onlykey.png 
+    img: onlykey.png
     otp: Yes
     u2f: Yes
 
@@ -55,7 +55,7 @@ providers:
     hardware: Yes
     otp: Yes
     u2f: Yes
-    
+
   - name: SoloKeys
     img: solokey.png
     url: https://shop.solokeys.com
@@ -97,3 +97,9 @@ providers:
     img: yubico.png
     u2f: Yes
     otp: Yes
+
+  - name: Shift Cryptosecurity
+    url: https://shiftcrypto.ch
+    img: shift_cryptosecurity.png
+    u2f: Yes
+    otp: No
